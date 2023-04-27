@@ -1,0 +1,86 @@
+.clients .info{
+  bottom: -60px;
+  right: 0;
+  width: 50%;
+}
+
+.clients .info .first,
+.featured .first
+{
+  width: 60px;
+  height: 2px;
+  background-color: white;
+  display: block;
+}
+
+.clients .info .second,
+.get-in-touch .second,
+.tour .info .second,
+.featured .second
+{
+  width: 20px;
+  height: 2px;
+  background-color: rgb(167, 156, 156);
+  display: block;
+}
+
+.clients .info .slick-dots{
+  text-align: start;
+  bottom: -60px;
+}
+
+.clients .info .slick-dots li.slick-active button:before{
+  color: white;
+}
+
+.tour{
+  background: url("../assets/images/home/tour.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.tour .info .first,
+.get-in-touch .first
+{
+  width: 60px;
+  height: 2px;
+  background-color: #3893D0;
+  display: block;
+}
+
+footer{
+padding: 24px !important;
+}
+
+@media (max-width:1180px) {
+  .clients .info{
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    padding: 30px 30px;
+  }
+  .clients .info .slick-dots{
+    bottom: -20px;
+  }
+  .tour .info{
+    padding: 30px 30px;
+    }
+}
+@media (max-width:920px) {
+  footer .wrapper{
+  flex-direction: column;
+  gap: 25px;
+  }
+  }
+@media (max-width:640px) {
+.tour{
+  background: url(../assets/images/home/luxaryMopile.png);
+  background-position: center;
+  background-size: cover;
+}
+.doll-header{
+  background: url(../assets/images/home/dollMopile.png);
+  background-size: cover;
+  background-position: center;
+}
+}
