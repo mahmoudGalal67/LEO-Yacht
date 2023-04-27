@@ -27,22 +27,12 @@ function Footer() {
           <a className='block text-center' href="tel:+971522818678">+971 52 281 8678</a>
           <div className="icons">
           <div
-            className="icon-wrapper my-5 flex items-center md:justify-start justify-center gap-3"
+            className="icon-wrapper my-5 flex items-center  justify-center gap-3"
           >
             <div
               className="icon w-10 p-3 rounded-full flex justify-center items-center bg-gray-600 hover:bg-gray-500"
             >
-              <a href="/"
-                ><img
-                    src={require("../assets/images/Icon/Facebook.png")}
-                  alt=""
-                  loading="lazy"
-              /></a>
-            </div>
-            <div
-              className="icon w-10 p-3 rounded-full flex justify-center items-center bg-gray-600 hover:bg-gray-500"
-            >
-              <a href="/">
+              <a href="https://instagram.com/dollhouse_dxb?igshid=MTIyMzRjYmRlZg==">
                 <img
                     src={require("../assets/images/Icon/Instagram.png")}
                   alt=""
@@ -52,19 +42,9 @@ function Footer() {
             <div
               className="icon w-10 p-3 rounded-full flex justify-center items-center bg-gray-600 hover:bg-gray-500"
             >
-              <a href="/"
-                ><img
-                    src={require("../assets/images/Icon/Linkedin.png")}
-                  alt=""
-                  loading="lazy"
-              /></a>
-            </div>
-            <div
-              className="icon w-10 p-3 rounded-full flex justify-center items-center bg-gray-600 hover:bg-gray-500"
-            >
-              <a href="/"
-                ><img
-                    src={require("../assets/images/Icon/Twitter.png")}
+              <a href="https://www.instagram.com/leoyachts/?igshid=MTIyMzRjYmRlZg%3D%3D">
+                <img
+                    src={require("../assets/images/Icon/Instagram.png")}
                   alt=""
                   loading="lazy"
               /></a>
